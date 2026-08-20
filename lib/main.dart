@@ -146,7 +146,7 @@ class ProfilePage extends StatelessWidget {
                 ),
                 // Replaced Icon with Image.asset using click image file
                 icon: Image.asset(
-                  'assets/images/click.png',
+                  'assets/assets/images/click.png',
                   width: 20,
                   height: 20,
                   color: Colors.white, // Tints the black click image to white
