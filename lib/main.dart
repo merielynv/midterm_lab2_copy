@@ -100,8 +100,8 @@ class ProfilePage extends StatelessWidget {
             // Replaced Icon with Image.asset using sun/moon image files
             icon: Image.asset(
               isDarkMode
-                  ? 'assets/images/light_mode.png'
-                  : 'assets/images/dark_mode.png',
+                  ? 'assets/assets/images/light_mode.png'
+                  : 'assets/assets/images/dark_mode.png',
               width: 24,
               height: 24,
               color: Colors.white, // Tints the black image icon to white
@@ -121,7 +121,7 @@ class ProfilePage extends StatelessWidget {
                 radius: 60,
                 backgroundColor: Colors.pinkAccent,
                 backgroundImage: AssetImage(
-                  'assets/images/my_image.jpg', // placeholder photo
+                  'assets/assets/images/my_image.jpg', // placeholder photo
                 ),
               ),
               const SizedBox(height: 12),
